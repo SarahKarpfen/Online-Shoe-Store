@@ -1,0 +1,114 @@
+body
+{
+    background-color: white;
+}
+
+header
+{
+    background-color: white;
+    margin-right: -0.5%;
+    margin-left: -0.6%;
+    margin-top: 3%;
+    border-color: black;
+    border-bottom: solid;
+    border-top: solid;
+    border-width: 7px;
+}
+
+.Logo
+{
+  width: 10%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  margin-left: 580px;
+}
+
+.ShoppingBagIcon
+{
+    width: 2.3%;
+    margin-left: 5%;
+    margin-bottom: 0.2%; 
+}
+
+.UserIcon
+{
+    width: 2.3%;
+    margin-bottom: 0.2%;
+    margin-left: 36%;   
+}
+
+.CountItems
+{
+    margin-left: 7.2%;
+    margin-bottom: -1.8%;
+    padding-top: 1.8%;
+    font-family: 'FbAlfa Light';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.UserName
+{
+    direction: rtl;
+    font-family: 'FbAlfa Light';
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 8.6%;
+    margin-top: -2.3%; 
+    padding-bottom: 2.4%;
+}
+
+
+.ShoePicture
+{
+    width: 30%;
+    margin-left: 50%;
+    margin-top: 8%;
+}
+
+.ItemDetails
+{
+    width: 30%;
+    margin-top: -36%;
+    margin-left: 18%;
+    direction: rtl;
+    font-family: 'FbAlfa Light';
+    font-size: 150%;
+}
+
+.Size
+{
+    width: 12.2%;
+}
+
+.Number
+{
+   width: 10%;
+}
+
+.AddToBag
+{
+    background-color: black;
+    color: white;
+    font-size: 110%;
+    font-family: 'FbAlfa Light';
+    margin-left: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    border-color: black;
+    
+}
+
+footer
+{
+  background-color: white;
+  margin-top: 14%;
+  margin-bottom: 3%;
+  margin-right: -0.5%;
+  margin-left: -0.6%;
+  border-color: black;
+  border-bottom: solid;
+  border-top: solid;
+  border-width: 7px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALDO | סל הקניות</title>
+    <link href="./Shopping cart window.css" rel="stylesheet">
+</head>
+<body>
+     <!-- שורת הניתוב בחלקו העליון של הדף -->
+   <header>
+    <p class="CountItems" id="CountItems"></p>
+    <a href="#"><img src="../Icons/shopping-bag (3).png" alt="סל הקניות" class="ShoppingBagIcon"></a>
+
+    <a href="../Main window/Main window.html"><img src="../Pictures/לוגו צר.png" alt="לוגו" class="Logo"></a>
+
+    <a href="../Enter window/Enter window.html"><img src="../Icons/user.png" alt="משתמש" class="UserIcon"></a>
+    <p class="UserName" id="UserName"></p>
+ </header>
+
+ <!-- רשימת פרטי הקניות של המשתמש -->
+ <div class="ShoppingList" id="ShoppingList"></div>
+ 
+ <br><br><br>
+
+ <button class="ForPay" id="ForPay" onclick="changeText()">מעבר לתשלום</button>
+
+<div class="Conclusion">
+ <p class="EndDetails" id="FinalNumItems"></p>
+ <p class="EndDetails" id="FinalPrice"></p>
+</div>
+
+ <script src="../Shopping cart window/Shopping cart window.js"></script>
+</body>
+</html>

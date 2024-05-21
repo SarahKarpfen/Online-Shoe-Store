@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Enter window.css" rel="stylesheet">
+    <title>ALDO | כניסת משתמש</title>
+</head>
+<body>
+<div class="MainDiv">
+    <!-- חלק ימני: לוגו -->
+  <div class="Div1">
+    <img src="../Pictures/לוגו.png" alt="לוגו" class="LogoImage">
+  </div>
+  
+
+  <!-- חלק שמאלי: הכנסת שם משתמש וסיסמא- -->
+  <div class="Div2">
+    <p>ברוך הבא:)</p>
+    <p>לכניסה-הקש את פרטי המשתמש שלך</p>
+     <form autocomplete="on">
+         <input type="email" placeholder="כתובת אימייל" class="Name" required>
+         <br> <br>
+
+         <input type="password" placeholder="סיסמא" class="Name" autocomplete="off" required> 
+         <label class="WrongMessage" id="WrongMessage" hidden>*ערך שגוי. הקש שוב.</label>
+         <br><br>
+
+         <button onclick="enter()" ><b>כניסה</b></button>
+    </form>
+  </div>
+</div>
+  
+
+<script src="../Enter window/Enter window.js"></script>
+</body>
+</html>

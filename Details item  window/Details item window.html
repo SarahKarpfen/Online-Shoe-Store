@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Details item window.css" rel="stylesheet">
+    <title>ALDO | פרטי נעל</title>
+</head>
+<body>
+    
+     <!-- שורת הניתוב בחלקו העליון של הדף -->
+   <header>
+    <p class="CountItems" id="CountItems"></p>
+    <a href="../Shopping cart window/Shopping cart window.html"><img src="../Icons/shopping-bag (3).png" alt="סל הקניות" class="ShoppingBagIcon"></a>
+
+    <a href="../Main window/Main window.html"><img src="../Pictures/לוגו צר.png" alt="לוגו" class="Logo"></a>
+
+    <a href="../Enter window/Enter window.html"><img src="../Icons/user.png" alt="משתמש" class="UserIcon"></a>
+    <p class="UserName" id="UserName"></p>
+ </header>
+
+ 
+ <!--פרטי הנעל-->
+    <!-- תמונה -->
+      <img src="../Pictures/נעליים/1.webp" alt="נעל-תמונה" class="ShoePicture" id="Picture">
+
+      <!-- פרטי הנעל -->
+      <div class="ItemDetails">
+        <h1 id="Title">כותרת</h1>
+
+        <label><b>קטגוריה: </b></label>
+        <label id="Category"></label> <br>
+        
+        <label><b>מחיר: </b></label>
+        <label id="Price"></label>
+
+        <br><br>
+
+        <label><b>חומר: </b></label>
+        <label id="Material"></label> <br>
+
+        <label><b>גובה עקב: </b></label>
+        <label id="High"></label> <br>
+
+        <label><b>צבע: </b></label>
+        <label id="Color"></label>
+
+        <br><br>
+
+        <label><b>מידה: </b></label>
+        <select class="Size" id="Size">
+          <option>35</option>
+          <option>36</option>
+          <option>37</option>
+          <option>38</option>
+          <option>39</option>
+          <option>40</option>
+          <option>41</option>
+          <option>42</option>
+          </select> <br>
+
+        <lable><b>כמות: </b></lable>
+        <input type="number" value="1" min="1" class="Number" id="Number">
+
+        <br><br>
+
+        <button class="AddToBag" id="AddToBag" onclick="addToBagAndUpdateAmount()">הוספה לסל  הקניות</button>
+
+      </div>
+
+      <footer>
+        <br><br><br><br>
+     </footer>
+
+
+     <script src="../Details item  window/Details item window.js"></script>
+</body>
+</html>
