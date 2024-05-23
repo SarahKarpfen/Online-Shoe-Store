@@ -10,9 +10,9 @@ Dynamic display using DOM technology.
 
 Saving data in Local storage and Session storage.
 
-**Design and construction:** CSS, HTML5.
+**Design and construction:** CSS, HTML5
 
-**Development environment:** Visual Studio Code.
+**Development environment:** Visual Studio Code
 
 
 
